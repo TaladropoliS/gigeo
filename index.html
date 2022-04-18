@@ -23,7 +23,7 @@
     <!-- fuentes https://fonts.google.com/ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <!-- normalize css-->
     <link href="assets/css/normalize.css" rel="stylesheet">
@@ -38,11 +38,34 @@
 <body>
 <header>
     <nav>
-        <img id="logo" src="assets/img/logo.png" alt="">
+        <div class="row">
+            <img id="logo" src="assets/img/logo.png" alt="">
+        </div>
+        <div class="row">
+            <i class="fas fa-location"></i>
+            <i class="fas fa-camera"></i>
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-ribbon"></i>
+        </div>
     </nav>
+    <section id="banner">
+        <img id="banner-img" src="assets/img/image-banner-1365x200.png" alt="banner">
+    </section>
 </header>
 
-<div class="row">
+<section id="profile" >
+    <div>
+        <img id="profile-img" src="assets/img/profile-image.png" alt="">
+        <h4>Yuki Mukami</h4>
+        <h6>30.000 seguidores</h6>
+    </div>
+    <div id="button-div">
+        <button id="btn-m" class="btn" type="button" value="hola">Mensaje</button>
+        <button id="btn-s" class="btn" type="button" value="hola">Seguir</button>
+    </div>
+</section>
+
+<div id="row-img" class="row">
     <div class="col">
         <img src="assets/img/image-1.png" alt="imagen">
         <h4>Despues de la vela</h4>
