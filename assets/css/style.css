@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    overflow-x: hidden;
+    /*border: 1px solid red;*/
+}
+
+#logo-nav {
+    max-height: 35px;
+}
+
+/*********************************************************/
+/* hamburger menu background-color  */
+/* sm 575px    md 767px    lg 991px    xl 1199px    xxl 1399px */
+/*********************************************************/
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-left: 5px;
+        border-radius: 10px;
+        color: white !important;
+    }
+
+    .nav-link {
+        color: white !important;
+        padding-left: 10px;
+    }
+}
+
+header nav {
+    background-color: rgba(50, 50, 50, 0.5) !important;
+}
+
+/*********************************************************/
+/* carousel dar el alto a toda la pantalla */
+/*********************************************************/
+/*.carousel-item {*/
+/*    max-height: 100vh;*/
+/*}*/
+
