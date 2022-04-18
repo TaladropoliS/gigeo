@@ -1,5 +1,5 @@
 # gigeo
 
-# sample web page css grid
+# sample web page only css
 
-
+# https://fernandotaladriz.com/curso_frontend/gigeo/
