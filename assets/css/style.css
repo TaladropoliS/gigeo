@@ -23,17 +23,24 @@ header {
     /*padding: 10px 10% 10px 10%;*/
 }
 
-/*nav {*/
-/*    height: 60px;*/
-/*    padding: 10px 10% 10px 10%;*/
-/*    display: inline-flex;*/
-/*    align-items: end;*/
-/*}*/
-
 /**********************************************************************/
 /* NAVBAR */
 
 nav {
+    display: block;
+    padding: 15px 50px 15px 50px;
+}
+
+.none {
+    display: none;
+}
+
+.blok {
+    display: block;
+}
+
+#div-logo {
+    float: left;
 }
 
 #logo {
@@ -63,7 +70,6 @@ nav {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #e8e8e8;
     color: black;
 }
 
@@ -151,8 +157,20 @@ p {
     /*padding-right: 50px;*/
 }
 
+h2 {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 h4 {
     font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e3e3e3;
 }
 
 /***************************************************************/
@@ -181,6 +199,16 @@ h4 {
         width: 99%;
         display: inline-block;
         padding: 5px 10% 20px 5px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #profile-img {
@@ -223,5 +251,3 @@ h4 {
         text-align: left;
     }
 }
-
-
